@@ -1,0 +1,281 @@
+.body{
+    margin: 0;
+}
+
+.hero-section{
+    color: #FFF;
+    font-family: 'Mulish';
+    font-size:1.1rem;
+    font-weight: 100;
+    background:  #FF6F00;
+    height: 3rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo{
+    color: #460482;
+    font-family: "Inter";
+    font-size: 1.54356rem;
+    font-weight: 700;
+}
+
+.login{
+    color: #460482;
+    font-family: "DM Sans";
+    font-size: 0.84375rem;
+    font-weight: 700;
+}
+
+.btn{
+    background-color: #460482;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 0.9375rem;
+    font-weight: 500;
+}
+
+.events-bg{
+    background-image: url('/assets/events-bg.png');
+    height: 28.375rem;
+    background-color: rgba(0, 0, 0, 0.40);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.events-text{
+    position: absolute;
+    z-index: 1;
+    padding-top: 9rem;
+}
+
+.events-text1{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.0625rem;
+    letter-spacing: 0.05rem;
+}
+
+.events-text2{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 3.0625rem; 
+    letter-spacing: 0.025rem;
+}
+
+
+@media(max-width:40.625rem){
+    .events-text{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.bg {
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.40);
+    width: 100%;
+    height: 28.375rem;
+    opacity: 0.7;
+    z-index: 0;    
+}
+
+.events-time{
+    padding-top: 5rem;
+}
+
+.events-textcontain{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2rem;
+
+}
+.date{
+    border-radius: 4.435px;
+    background: #460482;
+    display: flex;
+}
+
+.month{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+}
+
+.day{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 28px;
+    font-weight: 500;
+    display: block;
+}
+
+.events-year{
+    border-radius: 4.435px;
+    background: #460482;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.accordion-button::after{
+    background-image: url(/assets/chevron-right\ \(1\).svg);
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+}
+
+.events-text3{
+    color: #333;
+    font-family:"DM Sans";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.time{
+    display: block;
+    color: #767070;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.events-schedule{
+    display: flex;
+}
+
+.skills{
+    display: flex;
+}
+
+
+.events-footer{
+    padding-top: 3rem;
+}
+
+.footer{
+    background: #460482;
+    color: #FFF;
+    padding-top: 2rem;
+}
+
+.logo2{
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 24.697px;
+    font-weight: 600;
+}
+
+.footer-text1{
+    color: #FFF;
+    font-family:"DM Sans";
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 2.3645rem;
+    padding-top: 2rem;
+}
+
+.footer-text2{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 0.9rem;
+    font-weight: 20;
+    line-height: 1.625rem;
+    padding-top: 2rem;
+    opacity: .7;
+}
+
+.form-control{
+    background: #460482;
+}
+
+::placeholder{
+    color: #FFF !important;
+    opacity:1 ;
+}
+
+/*::webkit-input-placeholder{
+    color: #FFF;
+}
+:-ms-input-placeholder{
+    color: #FFF;
+}
+::-moz-placeholder{
+    color: #FFF;
+    opacity: 1;
+}*/
+.subscribe{
+    background: #FFF;
+    color: #460482;
+    border-radius: 0.37506rem;
+    display: flex;
+    width: 10rem;
+    height: 3rem;
+    padding-top: 2rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-text{
+    color: #460482;
+    font-family: "DM Sans";
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.social{
+    padding-top: 2rem;
+}
+
+.footer-heading{
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 0.90075rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.35113rem;
+    padding-top: 1rem;
+}
+
+.footer-subheading{
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 0.78819rem;
+    opacity: .7;
+    line-height: 2.25194rem; 
+    padding-top: 0.9rem;
+}
+
+.softskills{
+    text-decoration: none;
+}
+
+.borderbox{
+    padding-top: 2rem;
+}
+.borderline{
+    border-top: 1px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-size: 0.78819rem;
+    font-weight: 400;
+    line-height: 2.25194rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
