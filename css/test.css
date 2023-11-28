@@ -1,0 +1,134 @@
+.frontend-bg{
+    background-image: url(/assets/frontend-bg.png);
+    background-repeat: no-repeat;
+    background-color:rgba(0, 0, 0, 0.50);
+    background-size: cover;
+    height: 28.375rem;
+}
+
+.bg {
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.40);
+    width: 100%;
+    height: 28.375rem;
+    opacity: 0.7;
+    z-index: 0;    
+}
+.frontend-text{
+    position: absolute;
+    z-index: 1;
+    padding-top: 5rem;
+}
+
+.frontend-text1{
+    color: #FFF;
+    font-family: 'DM Sans';
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 3.0625rem;
+    letter-spacing: 0.025rem;
+}
+
+.frontend-text2{
+    color: #FFF;
+    font-family: 'DM Sans';
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.0625rem;
+    letter-spacing: 0.05rem;
+}
+
+.frontend-text3{
+    color: #FFF;
+    font-family: 'DM Sans';
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 3.0625rem;
+    letter-spacing: 0.025rem;
+}
+
+.frontend-textcontain{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+}
+
+.date{
+    border-radius: 4.435px;
+    background: #460482;
+    display: flex;
+}
+
+.month{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+}
+
+.day{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 28px;
+    font-weight: 500;
+    display: block;
+}
+
+.frontend-year{
+    border-radius: 4.435px;
+    background: #460482;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.frontend-text4{
+    color: #333;
+    font-family:"DM Sans";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.time{
+    color: #767070;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.b{
+    padding-top: .8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.frontend-schedule{
+    display: inline-flex;
+}
+.skills{
+    display: flex;
+    padding:1rem;
+}
+
+.frontend-time{
+    position: absolute;
+    left:12%;
+    top:75%;
+    border-radius: .4rem;
+    position:fixed;
+}
+
+.button{
+    background-color: #460482;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 0.9375rem;
+    font-weight: 500;
+    border-radius: .5rem;
+    padding: .5rem;
+}

@@ -4,7 +4,7 @@
 
 .hero-section{
     color: #FFF;
-    font-family: 'Mulish';
+    font-family: 'Mulish' sans-serif;
     font-size:1.1rem;
     font-weight: 100;
     background:  #FF6F00;
@@ -15,14 +15,14 @@
 
 .logo{
     color: #460482;
-    font-family: "Inter";
+    font-family: "Inter" sans-serif;
     font-size: 1.54356rem;
     font-weight: 700;
 }
 
 .login{
     color: #460482;
-    font-family: "DM Sans";
+    font-family: "DM Sans" sans-serif;
     font-size: 0.84375rem;
     font-weight: 700;
 }
@@ -30,7 +30,7 @@
 .btn{
     background-color: #460482;
     color: #FFF;
-    font-family: "Poppins";
+    font-family: "Poppins" sans-serif;
     font-size: 0.9375rem;
     font-weight: 500;
 }
@@ -52,7 +52,7 @@
 
 .events-text1{
     color: #FFF;
-    font-family: "DM Sans";
+    font-family: "DM Sans" sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 3.0625rem;
@@ -61,7 +61,7 @@
 
 .events-text2{
     color: #FFF;
-    font-family: "DM Sans";
+    font-family: "DM Sans" sans-serif;
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 3.0625rem; 
@@ -105,7 +105,7 @@
 
 .month{
     color: #FFF;
-    font-family: "DM Sans";
+    font-family: "DM Sans" sans-serif;
     font-size: 14px;
     font-weight: 500;
     display: block;
@@ -113,7 +113,7 @@
 
 .day{
     color: #FFF;
-    font-family: "DM Sans";
+    font-family: "DM Sans" sans-serif;
     font-size: 28px;
     font-weight: 500;
     display: block;
@@ -141,7 +141,7 @@
 
 .events-text3{
     color: #333;
-    font-family:"DM Sans";
+    font-family:"DM Sans" sans-serif;
     font-size: 18px;
     font-weight: 700;
 }
@@ -149,7 +149,7 @@
 .time{
     display: block;
     color: #767070;
-    font-family: "DM Sans";
+    font-family: "DM Sans" sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -175,14 +175,14 @@
 
 .logo2{
     color: #FFF;
-    font-family: "Inter";
+    font-family: "Inter" sans-serif;
     font-size: 24.697px;
     font-weight: 600;
 }
 
 .footer-text1{
     color: #FFF;
-    font-family:"DM Sans";
+    font-family:"DM Sans" sans-serif;
     font-size: 1.25rem;
     font-weight: 500;
     line-height: 2.3645rem;
@@ -191,7 +191,7 @@
 
 .footer-text2{
     color: #FFF;
-    font-family: "DM Sans";
+    font-family: "DM Sans" sans-serif;
     font-size: 0.9rem;
     font-weight: 20;
     line-height: 1.625rem;
@@ -233,7 +233,7 @@
 
 .subscribe-text{
     color: #460482;
-    font-family: "DM Sans";
+    font-family: "DM Sans" sans-serif;
     font-size: 0.9rem;
     font-weight: 600;
 }
@@ -244,7 +244,7 @@
 
 .footer-heading{
     color: #FFF;
-    font-family: "Plus Jakarta Sans";
+    font-family: "Plus Jakarta Sans" sans-serif;
     font-size: 0.90075rem;
     font-style: normal;
     font-weight: 700;
@@ -254,7 +254,7 @@
 
 .footer-subheading{
     color: #FFF;
-    font-family: "Plus Jakarta Sans";
+    font-family: "Plus Jakarta Sans" sans-serif;
     font-size: 0.78819rem;
     opacity: .7;
     line-height: 2.25194rem; 
@@ -272,7 +272,7 @@
     border-top: 1px solid #FFF;
     color: #FFF;
     text-align: center;
-    font-family: 'DM Sans';
+    font-family: 'DM Sans' sans-serif;
     font-size: 0.78819rem;
     font-weight: 400;
     line-height: 2.25194rem;

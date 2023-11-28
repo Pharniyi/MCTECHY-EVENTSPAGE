@@ -37,8 +37,10 @@
     padding: .5rem;
 }
 
-.frontend-bg{
-    background-image: url(/assets/frontend-bg.png);
+/*background*/
+
+.productdesign-bg{
+    background-image: url(/assets/productdesign-bg.png);
     background-repeat: no-repeat;
     background-color:rgba(0, 0, 0, 0.50);
     background-size: cover;
@@ -54,13 +56,13 @@
     z-index: 0;    
 }
 
-.frontend-text{
+.productdesign-text{
     position: absolute;
     z-index: 1;
     padding-top: 5rem;
 }
 
-.frontend-text1{
+.productdesign-text1{
     color: #FFF;
     font-family: 'DM Sans' sans-serif;
     font-size: 1.25rem;
@@ -69,7 +71,7 @@
     letter-spacing: 0.025rem;
 }
 
-.frontend-text2{
+.productdesign-text2{
     color: #FFF;
     font-family: 'DM Sans' sans-serif;
     font-size: 2.5rem;
@@ -78,20 +80,21 @@
     letter-spacing: 0.05rem;
 }
 
-.frontend-text3{
+.productdesign-text3{
     color: #FFF;
     font-family: 'DM Sans' sans-serif;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 3.0625rem;
     letter-spacing: 0.025rem;
 }
 
+/*time*/
 .softskills{
     text-decoration: none;
 }
 
-.frontend-textcontain{
+.productdesign-textcontain{
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -120,7 +123,7 @@
     display: block;
 }
 
-.frontend-year{
+.productdesign-year{
     border-radius: 4.435px;
     background: #460482;
     width: 60px;
@@ -130,7 +133,7 @@
     align-items: center;
 }
 
-.frontend-text4{
+.productdesign-text4{
     color: #333;
     font-family:"DM Sans" sans-serif;
     font-size: 18px;
@@ -151,7 +154,7 @@
     padding-right: 2rem;
 }
 
-.frontend-schedule{
+.productdesign-schedule{
     display: inline-flex;
 }
 
@@ -160,25 +163,16 @@
     padding:1rem;
 }
 
-@media(min-width:48rem) {
-
-.frontend-time{
+/*.productdesign-time{
     position: absolute;
     left:12%;
-    top:85%;
+    top:75%;
     border-radius: .4rem;
+    position:fixed;
 }
 
-}
-
-.frontend-time{
-    position: absolute;
-    top:110%;
-    border-radius: .4rem;
-}
-
-/*@media(min-width:48.0625rem){
-    .frontend-time{
+@media(min-width:48.0625rem){
+    .productdesign-time{
         position: absolute;
         left:15%;
         top:85%;
@@ -186,8 +180,26 @@
     }
 }*/
 
+@media(min-width:48rem) {
+
+    .productdesign-time{
+        position: absolute;
+        left:12%;
+        top:85%;
+        border-radius: .4rem;
+    }
+    
+    }
+    
+.productdesign-time{
+        position: absolute;
+        top:120%;
+        border-radius: .4rem;
+        margin: 0 auto;
+}
+
 @media(max-width:26.4375rem){
-    .frontend-text3{
+    .productdesign-text3{
         color: #FFF;
         font-family: 'DM Sans' sans-serif;
         font-size: 1rem;
@@ -198,7 +210,7 @@
 }
 
 @media(max-width:47.9375rem){
-    .frontend-year{
+    .productdesign-year{
         border-radius: 4.435px;
         background: #460482;
         width: 80px;
@@ -207,17 +219,12 @@
         justify-content: center;
         align-items: center;
     }
-    .frontend-schedule{
+    .productdesign-schedule{
         display: block;
     }
 
-   .m-img{
-        border-top-left-radius: .7rem;
-   }
-
    .m-content{
-        border-top-left-radius:0% !important;
-        border-bottom-left-radius:0cm !important;
+        border-radius:0% !important;
    }
 
    .unit2-content{
@@ -231,9 +238,11 @@
 }
 
 }
-
+.m-img{
+        border-top-left-radius: .7rem;
+   }
 /*@media(max-width:74.875rem){
-    .frontend-time{
+    .productdesign-time{
         position: absolute;
         left:8%;
         top:85%;
@@ -242,24 +251,23 @@
 }
 
 @media(max-width:40.125rem){
-    .frontend-time{
+    .productdesign-time{
         position: absolute;
         right: 7%;
         top:85%;
         border-radius: .4rem;
     }
-}*/
+}
 
 
-/*@media(max-width:62rem){
-    .frontend-time{
+@media(max-width:62rem){
+    .productdesign-time{
         position: absolute;
         left:8%;
         top:85%;
         border-radius: .4rem;
     }
     
-
 }*/
 
 .accordion-button::after{
@@ -274,6 +282,7 @@
     
 }
 
+/*testimonial-box*/
 .testimonial-box{
     padding-top: 7rem;
 }
@@ -284,18 +293,18 @@
     border-bottom-left-radius: 1rem;
 }
 
-.frontend-text6{
+.productdesign-text6{
     color: #FFF;
-    font-family: 'DM Sans'sans-serif;
+    font-family: 'DM Sans' sans-serif;
     font-size: 1rem;
     font-weight: 300;
     line-height: 2rem;
     padding-top: 2rem;
 }
 
-.frontend-text06{
+.productdesign-text06{
     color: #FFF;
-    font-family: 'DM Sans' sans-serif;
+    font-family: 'DM Sans'sans-serif;
     font-size: 1rem;
     font-weight: 300;
     line-height: 2rem;
@@ -315,24 +324,26 @@
     border: 0;
 }
 
-.frontend-text7{
+.productdesign-text7{
     color: #FFF;
-    font-family: 'DM Sans' sans-serif;
+    font-family: 'DM Sans'sans-serif;
     font-size: .75rem;
     font-weight: 200;
     line-height: 2rem;
     padding-top: 1rem;
 }
 
-.frontend-text8{
+/*summary*/
+
+.productdesign-text8{
     color: #333;
-    font-family: 'DM Sans' sans-serif;
+    font-family: 'DM Sans'sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     padding-top: .5rem;
 }
 
-.frontend-text9{
+.productdesign-text9{
     color: #333;
     font-family: 'DM Sans' sans-serif;
     font-size: 1.125rem;
@@ -340,9 +351,11 @@
     line-height: 3rem; 
 }
 
-.frontend-text10{
+/*what you will learn*/
+
+.productdesign-text10{
     color: #333;
-    font-family: 'DM Sans' sans-serif;
+    font-family: 'DM Sans'sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
@@ -363,9 +376,9 @@
     justify-content: center;
 }
 
-.frontend-text11{
+.productdesign-text11{
     color: #333;
-    font-family: 'DM Sans' sans-serif;
+    font-family: 'DM Sans'sans-serif;
     font-size: 1.25rem;
     font-weight: 700;
 }
@@ -379,7 +392,7 @@
     border-radius: .3rem;
 }
 
-.frontend-box1{
+.productdesign-box1{
     padding-top: 3rem;
 }
 
@@ -411,11 +424,13 @@
     line-height: 1.9375rem; 
 }
 
-.frontend-box3{
+/*pricing*/
+
+.productdesign-box3{
     padding-top: 1rem;
 }
 
-.frontend-text12{
+.productdesign-text12{
     color: #333;
     font-family: 'DM Sans' sans-serif;
     font-size: 1.1rem;
@@ -435,12 +450,14 @@
     text-decoration: none;
     color: #10217D;
     text-align: center;
-    font-family: 'Mulish' sans-serif;
+    font-family: 'Mulish'sans-serif;
     font-size: 0.8rem;
     font-weight: 600;
     line-height: 1.58rem; 
     padding-left: 2rem;
 }
+
+/*video*/
 
 .videos {
     position: relative;
@@ -464,16 +481,17 @@
     cursor: pointer;
   }
 
-.frontend-box4{
+  
+.productdesign-box4{
     padding-top: 3rem;
 }
 
-  .frontend-text13{
+  .productdesign-text13{
     border-radius: 0.625rem;
     background: #460482;
   }
 
-  .frontend-text14{
+  .productdesign-text14{
     color: #FFF;
     font-family: 'DM Sans' sans-serif;
     font-size: 1.5rem;
@@ -481,9 +499,9 @@
     padding-top: 2rem;
   }
 
-  .frontend-text15{
+  .productdesign-text15{
     color: #FFF;
-    font-family: 'DM Sans' sans-serif;
+    font-family: 'DM Sans'sans-serif;
     font-size: 1rem;
     font-weight: 400;
     padding-top: 1rem;
@@ -493,6 +511,7 @@
     padding-bottom: 3rem;
     padding-top: .5rem;
   }
+
   .get-btn{
     background: #FFF;
     color: #460482;
@@ -505,6 +524,8 @@
     justify-content: center;
     align-items: center;
   }
+
+  /*footer*/
 
   .events-footer{
     padding-top: 3rem;
@@ -534,7 +555,7 @@
 
 .footer-text2{
     color: #FFF;
-    font-family: "DM Sans" sans-serif;
+    font-family: "DM Sans"sans-serif;
     font-size: 0.9rem;
     font-weight: 20;
     line-height: 1.625rem;
@@ -576,7 +597,7 @@
 
 .subscribe-text{
     color: #460482;
-    font-family: "DM Sans" sans-serif;
+    font-family: "DM Sans"sans-serif;
     font-size: 0.9rem;
     font-weight: 600;
 }
@@ -587,7 +608,7 @@
 
 .footer-heading{
     color: #FFF;
-    font-family: "Plus Jakarta Sans" sans-serif;
+    font-family: "Plus Jakarta Sans"sans-serif;
     font-size: 0.90075rem;
     font-style: normal;
     font-weight: 700;
@@ -597,7 +618,7 @@
 
 .footer-subheading{
     color: #FFF;
-    font-family: "Plus Jakarta Sans" sans-serif;
+    font-family: "Plus Jakarta Sans"sans-serif;
     font-size: 0.78819rem;
     opacity: .7;
     line-height: 2.25194rem; 

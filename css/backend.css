@@ -37,8 +37,10 @@
     padding: .5rem;
 }
 
-.frontend-bg{
-    background-image: url(/assets/frontend-bg.png);
+/*background*/
+
+.backend-bg{
+    background-image: url(/assets/backend.png);
     background-repeat: no-repeat;
     background-color:rgba(0, 0, 0, 0.50);
     background-size: cover;
@@ -54,13 +56,13 @@
     z-index: 0;    
 }
 
-.frontend-text{
+.backend-text{
     position: absolute;
     z-index: 1;
     padding-top: 5rem;
 }
 
-.frontend-text1{
+.backend-text1{
     color: #FFF;
     font-family: 'DM Sans' sans-serif;
     font-size: 1.25rem;
@@ -69,7 +71,7 @@
     letter-spacing: 0.025rem;
 }
 
-.frontend-text2{
+.backend-text2{
     color: #FFF;
     font-family: 'DM Sans' sans-serif;
     font-size: 2.5rem;
@@ -78,7 +80,7 @@
     letter-spacing: 0.05rem;
 }
 
-.frontend-text3{
+.backend-text3{
     color: #FFF;
     font-family: 'DM Sans' sans-serif;
     font-size: 1.25rem;
@@ -87,11 +89,12 @@
     letter-spacing: 0.025rem;
 }
 
+/*time*/
 .softskills{
     text-decoration: none;
 }
 
-.frontend-textcontain{
+.backend-textcontain{
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -120,7 +123,7 @@
     display: block;
 }
 
-.frontend-year{
+.backend-year{
     border-radius: 4.435px;
     background: #460482;
     width: 60px;
@@ -130,7 +133,7 @@
     align-items: center;
 }
 
-.frontend-text4{
+.backend-text4{
     color: #333;
     font-family:"DM Sans" sans-serif;
     font-size: 18px;
@@ -151,7 +154,7 @@
     padding-right: 2rem;
 }
 
-.frontend-schedule{
+.backend-schedule{
     display: inline-flex;
 }
 
@@ -162,23 +165,29 @@
 
 @media(min-width:48rem) {
 
-.frontend-time{
+    .backend-time{
+        position: absolute;
+        left:12%;
+        top:85%;
+        border-radius: .4rem;
+    }
+    
+    }
+    
+.backend-time{
+        position: absolute;
+        top:110%;
+        border-radius: .4rem;
+}
+/*.backend-time{
     position: absolute;
     left:12%;
-    top:85%;
+    top:60%;
     border-radius: .4rem;
 }
 
-}
-
-.frontend-time{
-    position: absolute;
-    top:110%;
-    border-radius: .4rem;
-}
-
-/*@media(min-width:48.0625rem){
-    .frontend-time{
+@media(min-width:48.0625rem){
+    .backend-time{
         position: absolute;
         left:15%;
         top:85%;
@@ -187,7 +196,7 @@
 }*/
 
 @media(max-width:26.4375rem){
-    .frontend-text3{
+    .backend-text3{
         color: #FFF;
         font-family: 'DM Sans' sans-serif;
         font-size: 1rem;
@@ -198,7 +207,7 @@
 }
 
 @media(max-width:47.9375rem){
-    .frontend-year{
+    .backend-year{
         border-radius: 4.435px;
         background: #460482;
         width: 80px;
@@ -207,11 +216,11 @@
         justify-content: center;
         align-items: center;
     }
-    .frontend-schedule{
+    .backend-schedule{
         display: block;
     }
 
-   .m-img{
+    .m-img{
         border-top-left-radius: .7rem;
    }
 
@@ -229,11 +238,10 @@
         background: #FBF8FF;
         padding-top: 3rem;
 }
-
 }
 
 /*@media(max-width:74.875rem){
-    .frontend-time{
+    .backend-time{
         position: absolute;
         left:8%;
         top:85%;
@@ -242,17 +250,17 @@
 }
 
 @media(max-width:40.125rem){
-    .frontend-time{
+    .backend-time{
         position: absolute;
         right: 7%;
         top:85%;
         border-radius: .4rem;
     }
-}*/
+}
 
 
-/*@media(max-width:62rem){
-    .frontend-time{
+@media(max-width:62rem){
+    .backend-time{
         position: absolute;
         left:8%;
         top:85%;
@@ -274,6 +282,9 @@
     
 }
 
+
+/*card body*/
+
 .testimonial-box{
     padding-top: 7rem;
 }
@@ -284,16 +295,16 @@
     border-bottom-left-radius: 1rem;
 }
 
-.frontend-text6{
+.backend-text6{
     color: #FFF;
-    font-family: 'DM Sans'sans-serif;
+    font-family: 'DM Sans' sans-serif;
     font-size: 1rem;
     font-weight: 300;
     line-height: 2rem;
     padding-top: 2rem;
 }
 
-.frontend-text06{
+.backend-text06{
     color: #FFF;
     font-family: 'DM Sans' sans-serif;
     font-size: 1rem;
@@ -303,19 +314,7 @@
     padding-bottom: 3.6rem;
 }
 
-.small-line{
-    padding-top: 2rem;
-    
-}
-
-.short-line{
-    width: 50px; 
-    height: 3px; 
-    background-color: #FFF; 
-    border: 0;
-}
-
-.frontend-text7{
+.backend-text7{
     color: #FFF;
     font-family: 'DM Sans' sans-serif;
     font-size: .75rem;
@@ -324,7 +323,19 @@
     padding-top: 1rem;
 }
 
-.frontend-text8{
+.small-line{
+    padding-top: 2rem;
+    
+}
+.short-line{
+    width: 50px; 
+    height: 3px; 
+    background-color: #FFF; 
+    border: 0;
+}
+
+/*summary*/
+.backend-text8{
     color: #333;
     font-family: 'DM Sans' sans-serif;
     font-size: 1.5rem;
@@ -332,7 +343,7 @@
     padding-top: .5rem;
 }
 
-.frontend-text9{
+.backend-text9{
     color: #333;
     font-family: 'DM Sans' sans-serif;
     font-size: 1.125rem;
@@ -340,7 +351,9 @@
     line-height: 3rem; 
 }
 
-.frontend-text10{
+/*what you will learn*/
+
+.backend-text10{
     color: #333;
     font-family: 'DM Sans' sans-serif;
     font-size: 1.5rem;
@@ -352,18 +365,17 @@
 
 .unit{
     color: #FFF;
-    font-family: 'DM Sans'sans-serif;
+    font-family: 'DM Sans' sans-serif;
     font-size: 1rem;
     font-weight: 700;
     border-radius: 0.27719rem;
     background: #460482;
-    width:3.625rem;
+    width:3.825rem;
     height:3rem;
-    text-align: center;
-    justify-content: center;
+   
 }
 
-.frontend-text11{
+.backend-text11{
     color: #333;
     font-family: 'DM Sans' sans-serif;
     font-size: 1.25rem;
@@ -379,7 +391,7 @@
     border-radius: .3rem;
 }
 
-.frontend-box1{
+.backend-box1{
     padding-top: 3rem;
 }
 
@@ -411,13 +423,14 @@
     line-height: 1.9375rem; 
 }
 
-.frontend-box3{
+/*pricing*/
+.backend-box3{
     padding-top: 1rem;
 }
 
-.frontend-text12{
+.backend-text12{
     color: #333;
-    font-family: 'DM Sans' sans-serif;
+    font-family: 'DM Sans'sans-serif;
     font-size: 1.1rem;
     font-weight: 600;
     line-height: 2.5rem;
@@ -435,12 +448,14 @@
     text-decoration: none;
     color: #10217D;
     text-align: center;
-    font-family: 'Mulish' sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 0.8rem;
     font-weight: 600;
     line-height: 1.58rem; 
     padding-left: 2rem;
 }
+
+/*video*/
 
 .videos {
     position: relative;
@@ -464,24 +479,24 @@
     cursor: pointer;
   }
 
-.frontend-box4{
+  .backend-box4{
     padding-top: 3rem;
 }
 
-  .frontend-text13{
+  .backend-text13{
     border-radius: 0.625rem;
     background: #460482;
   }
 
-  .frontend-text14{
+  .backend-text14{
     color: #FFF;
-    font-family: 'DM Sans' sans-serif;
+    font-family: 'DM Sans',sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     padding-top: 2rem;
   }
 
-  .frontend-text15{
+  .backend-text15{
     color: #FFF;
     font-family: 'DM Sans' sans-serif;
     font-size: 1rem;
@@ -506,7 +521,8 @@
     align-items: center;
   }
 
-  .events-footer{
+/*footer*/
+.events-footer{
     padding-top: 3rem;
 }
 
@@ -587,7 +603,7 @@
 
 .footer-heading{
     color: #FFF;
-    font-family: "Plus Jakarta Sans" sans-serif;
+    font-family: "Plus Jakarta Sans" ;
     font-size: 0.90075rem;
     font-style: normal;
     font-weight: 700;
