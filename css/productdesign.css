@@ -44,6 +44,7 @@
     background-repeat: no-repeat;
     background-color:rgba(0, 0, 0, 0.50);
     background-size: cover;
+    background-position: center;
     height: 28.375rem;
 }
 
@@ -163,41 +164,24 @@
     padding:1rem;
 }
 
-/*.productdesign-time{
+.productdesign-time{
     position: absolute;
     left:12%;
-    top:75%;
+    right:12%;
+    top:90%;
     border-radius: .4rem;
-    position:fixed;
 }
 
-@media(min-width:48.0625rem){
-    .productdesign-time{
-        position: absolute;
-        left:15%;
-        top:85%;
-        border-radius: .4rem;
-    }
-}*/
-
-@media(min-width:48rem) {
+@media(max-width:43.75rem) {
 
     .productdesign-time{
-        position: absolute;
-        left:12%;
-        top:85%;
+        left:1%;
+        right:1%;
+        top:90%;
         border-radius: .4rem;
     }
     
     }
-    
-.productdesign-time{
-        position: absolute;
-        top:120%;
-        border-radius: .4rem;
-        margin: 0 auto;
-}
-
 @media(max-width:26.4375rem){
     .productdesign-text3{
         color: #FFF;
@@ -241,34 +225,6 @@
 .m-img{
         border-top-left-radius: .7rem;
    }
-/*@media(max-width:74.875rem){
-    .productdesign-time{
-        position: absolute;
-        left:8%;
-        top:85%;
-        border-radius: .4rem;
-    }
-}
-
-@media(max-width:40.125rem){
-    .productdesign-time{
-        position: absolute;
-        right: 7%;
-        top:85%;
-        border-radius: .4rem;
-    }
-}
-
-
-@media(max-width:62rem){
-    .productdesign-time{
-        position: absolute;
-        left:8%;
-        top:85%;
-        border-radius: .4rem;
-    }
-    
-}*/
 
 .accordion-button::after{
     background-image: url(/assets/chevron-right\ \(1\).svg);
@@ -370,10 +326,9 @@
     font-weight: 700;
     border-radius: 0.27719rem;
     background: #460482;
-    width:3.625rem;
-    height:3rem;
+    width:3.75rem;
+    height:3.75rem;
     text-align: center;
-    justify-content: center;
 }
 
 .productdesign-text11{
@@ -563,6 +518,9 @@
     opacity: .7;
 }
 
+.socials{
+    padding-top: 2rem;
+}
 .form-control{
     background: #460482;
 }

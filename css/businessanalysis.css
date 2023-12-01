@@ -44,6 +44,7 @@
     background-repeat: no-repeat;
     background-color:rgba(0, 0, 0, 0.50);
     background-size: cover;
+    background-position: center;
     height: 28.375rem;
 }
 
@@ -126,8 +127,8 @@
 .business-year{
     border-radius: 4.435px;
     background: #460482;
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -163,38 +164,23 @@
     padding:1rem;
 }
 
-/*.business-time{
+.business-time{
     position: absolute;
     left:12%;
-    top:75%;
+    right:12%;
+    top:90%;
     border-radius: .4rem;
-    position:fixed;
 }
 
-@media(min-width:48.0625rem){
-    .business-time{
-        position: absolute;
-        left:15%;
-        top:85%;
-        border-radius: .4rem;
-    }
-}*/
-
-@media(min-width:48rem) {
+@media(max-width:43.75rem) {
 
     .business-time{
-        position: absolute;
-        left:12%;
-        top:85%;
+        left:1%;
+        right:1%;
+        top:90%;
         border-radius: .4rem;
     }
     
-    }
-    
-    .business-time{
-        position: absolute;
-        top:110%;
-        border-radius: .4rem;
     }
 
 @media(max-width:26.4375rem){
@@ -203,7 +189,7 @@
         font-family: 'DM Sans' sans-serif;
         font-size: 1rem;
         font-weight: 400;
-        line-height: 2.2rem;
+        line-height: 2rem;
         letter-spacing: 0.025rem;
     }
 }
@@ -212,8 +198,8 @@
     .business-year{
         border-radius: 4.435px;
         background: #460482;
-        width: 80px;
-        height: 60px;
+        width: 5rem;
+        height: 3.75rem;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -242,36 +228,6 @@
 }
 
 }
-
-/*@media(max-width:74.875rem){
-    .business-time{
-        position: absolute;
-        left:8%;
-        top:85%;
-        border-radius: .4rem;
-    }
-}
-
-@media(max-width:40.125rem){
-    .business-time{
-        position: absolute;
-        right: 7%;
-        top:85%;
-        border-radius: .4rem;
-    }
-}
-
-
-@media(max-width:62rem){
-    .business-time{
-        position: absolute;
-        left:8%;
-        top:85%;
-        border-radius: .4rem;
-    }
-    
-
-}*/
 
 .accordion-button::after{
     background-image: url(/assets/chevron-right\ \(1\).svg);
@@ -373,8 +329,9 @@
     font-weight: 700;
     border-radius: 0.27719rem;
     background: #460482;
-    width: 30%;
-    height:20%;
+    width:3.75rem;
+    height:3.75rem;
+    text-align: center;
 }
 
 .business-text11{
@@ -573,6 +530,9 @@ video {
     opacity:1 ;
 }
 
+.socials{
+    padding-top: 2rem;
+}
 /*::webkit-input-placeholder{
     color: #FFF;
 }

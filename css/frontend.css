@@ -42,6 +42,7 @@
     background-repeat: no-repeat;
     background-color:rgba(0, 0, 0, 0.50);
     background-size: cover;
+    background-position: center;
     height: 28.375rem;
 }
 
@@ -160,31 +161,24 @@
     padding:1rem;
 }
 
-@media(min-width:48rem) {
-
 .frontend-time{
     position: absolute;
     left:12%;
-    top:85%;
+    right:12%;
+    top:90%;
     border-radius: .4rem;
 }
 
-}
+@media(max-width:43.75rem) {
 
-.frontend-time{
-    position: absolute;
-    top:110%;
-    border-radius: .4rem;
-}
-
-/*@media(min-width:48.0625rem){
     .frontend-time{
-        position: absolute;
-        left:15%;
-        top:85%;
+        left:1%;
+        right:1%;
+        top:90%;
         border-radius: .4rem;
     }
-}*/
+    
+    }
 
 @media(max-width:26.4375rem){
     .frontend-text3{
@@ -232,36 +226,6 @@
 
 }
 
-/*@media(max-width:74.875rem){
-    .frontend-time{
-        position: absolute;
-        left:8%;
-        top:85%;
-        border-radius: .4rem;
-    }
-}
-
-@media(max-width:40.125rem){
-    .frontend-time{
-        position: absolute;
-        right: 7%;
-        top:85%;
-        border-radius: .4rem;
-    }
-}*/
-
-
-/*@media(max-width:62rem){
-    .frontend-time{
-        position: absolute;
-        left:8%;
-        top:85%;
-        border-radius: .4rem;
-    }
-    
-
-}*/
-
 .accordion-button::after{
     background-image: url(/assets/chevron-right\ \(1\).svg);
     width: 35px;
@@ -305,7 +269,6 @@
 
 .small-line{
     padding-top: 2rem;
-    
 }
 
 .short-line{
@@ -357,10 +320,9 @@
     font-weight: 700;
     border-radius: 0.27719rem;
     background: #460482;
-    width:3.625rem;
-    height:3rem;
+    width:3.75rem;
+    height:3.75rem;
     text-align: center;
-    justify-content: center;
 }
 
 .frontend-text11{
@@ -551,6 +513,9 @@
     opacity:1 ;
 }
 
+.socials{
+    padding-top: 2rem;
+}
 /*::webkit-input-placeholder{
     color: #FFF;
 }

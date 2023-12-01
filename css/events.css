@@ -41,7 +41,7 @@
     background-color: rgba(0, 0, 0, 0.40);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    background-position: center;
 }
 
 .events-text{
@@ -208,6 +208,9 @@
     opacity:1 ;
 }
 
+.socials{
+    padding-top: 2rem;
+}
 /*::webkit-input-placeholder{
     color: #FFF;
 }
